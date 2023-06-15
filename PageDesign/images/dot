@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Find Jobs from popular and top companies in Bangladesh on Bdjobs.com. Search all companies jobs by government, NGO, private firm, MNC in Bangladesh.">
+
+    
+    <link rel="stylesheet" type="text/css" href="/pagestatus/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/pagestatus/css/topBar_fatFooter_error.css">
+    <link rel="stylesheet" type="text/css" href="/pagestatus/css/header_error.css">
+    <link rel="stylesheet" type="text/css" href="/pagestatus/css/ui-icon.css">
+    <link rel="stylesheet" type="text/css" href="/pagestatus/css/common_error.css">
+    <link rel="icon" href="/pagestatus/images/favicon.ico">
+    
+    <!--Common JQuery and Javascript-->
+    <script type="text/javascript" src="/pagestatus/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/pagestatus/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/pagestatus/js/css3-mediaqueries.js"></script>
+    <script type="text/javascript" src="/pagestatus/js/enquire.min.js"></script>
+    <script type="text/javascript" src="/pagestatus/js/common.js"></script> 
+
+    <title>Something went wrong! 404 || Bdjobs.com </title>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2113640-1']);
+        _gaq.push(['_setDomainName', 'bdjobs.com']);
+        _gaq.push(['_trackPageview']);
+    
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    
+    </script>
+
+
+<script>
+    $(document).ready(function() {
+        $(".control-panel").css("display", "block");
+    });
+</script>   
+
+<script>
+    function AccessibilityAffectedElementsRedefine(){
+        //$affectedElements = $("h1,h2,h3,h4,h5,h6,ul,ol,input,div,p,a,button,span,li,strong,b,i,hr");
+        $affectedElements = $("h1,h2,h3,h4,h5,h6,ul,ol,input,select,textarea,div,p,a,button,span,li,strong,b,i,hr,fieldset,label");
+        
+        $affectedElements.each(function() {
+            $(this).data("orig-size", $(this).css("font-size"));
+        });
+        
+
+        console.log("$affectedElements")  
+        console.log($affectedElements)
+        $affectedElements.each(function() {
+                $(this).css("font-size", $(this).data("orig-size"));
+        });
+        $affectedElements.each(function() {
+                $(this).css("font-size", parseInt($(this).css("font-size")) + $acccessibilityClick);
+        });  
+    }
+
+
+    // Big cursor JS
+    $(document).on("click", "#f-larrw", function() {
+        $("html").toggleClass("bcursor");
+    });
+
+    var isBCursorOn=false;  
+    $(document).on("click", "#f-larrw", function() {                    
+        isBCursorOn=(isBCursorOn?false:true);
+    });
+
+    $("html *").on("mouseover",function(){
+        if(isBCursorOn){
+            $(this).addClass("bcursor");
+        }else{
+            $(this).removeClass("bcursor");
+        }
+    });
+    // Big cursor JS End
+</script>
+
+    <style>
+        a.skip-main {
+            clip:rect(1px,1px,1px,1px);
+            position:absolute!important;
+            height:1px;
+            width:1px;
+            overflow:hidden;
+            outline: auto!important;
+            color: #165273;
+            background-color:#f1f1f1;
+        }
+        
+        a.skip-main:focus,
+        a.skip-main:active { 
+            background-color:#f1f1f1;
+            border-radius:3px;
+            box-shadow:0 0 2px 2px rgba(0,0,0,.6);
+            clip:auto!important;
+            color:#165273;
+            display:block;
+            font-size:14px;
+            font-weight:700;
+            height:auto;
+            left:5px;
+            line-height:normal;
+            padding:15px 23px 14px;
+            text-decoration:none;
+            top:5px;
+            width:auto;
+            z-index:100000;
+        }
+        .BDJS {
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
+        }
+        
+    </style>  
+    
+    
+
+    <script>
+        $(document).ready(function() {
+            $('a[href*="#"]')
+                .not('[href="#"]')
+                .not('[href="#0"]')
+                .click(function(event) {
+                    if (
+                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                        location.hostname == this.hostname
+                    ) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            event.preventDefault();
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000, function() {
+                                var $target = $(target);
+                                $target.focus();
+                                if ($target.is(":focus")) { 
+                                    return false;
+                                } else {
+                                    $target.attr('tabindex', '-1'); 
+                                    $target.focus(); 
+                                };
+                            });
+                        }
+                    }
+                });
+        });
+    </script> 
+
+<style> 
+
+/* Error page */
+
+/* 
+
+.fnfthree-wrap{
+    padding: 70px 0px 100px 0px;
+    text-align: center;
+}
+.fnfthree-wrap .icimg-wrap{
+    margin-bottom: 23px;
+}
+.fnfthree-wrap .icimg-wrap img{
+    margin: 0px auto;
+}
+.fnfthree-wrap .errnum{
+    text-align: center;
+    color: #333333;
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.fnfthree-wrap .errtxt{
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.fnfthree-wrap .errdesc{
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 480px;
+    margin: 0px auto;
+}
+.fnfthree-wrap .bacthpwrap{
+    margin-top: 30px;
+}
+.fnfthree-wrap .bacthpwrap .bacthpbtn {
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 13px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+.fnfthree-wrap .searjobs-wrap {
+    margin-top: 40px;
+}
+.fnfthree-wrap .searjobs-wrap {
+    margin-top: 40px;
+}
+.fnfthree-wrap .searjobs-wrap .sjstxt{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.fnfthree-wrap .csears {
+    max-width: 292px;
+    margin: 0px auto;
+    position: relative;
+}
+.fnfthree-wrap .csears .form-control {
+    padding-left: 12px;
+    padding-right: 34px;
+    color: #757575;
+    font-size: 16px;
+    border: 1px solid #757575;
+}
+.fnfthree-wrap .csears .form-control::-moz-placeholder {
+    color: #757575;
+    opacity: 1;
+}
+
+.fnfthree-wrap .csears .form-control::-ms-input-placeholder {
+    color: #757575;
+}
+
+.fnfthree-wrap .csears .form-control::-webkit-input-placeholder {
+    color: #757575;
+}
+.fnfthree-wrap .csears .form-control:focus {
+    border-color: #66afe9;
+    outline: auto;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.fnfthree-wrap .csears .ico {
+    left: initial;
+    right: 5px;
+    top: 9px;
+    color: #757575;
+    font-family: 'ui-icon';
+    position: absolute;
+    font-size: 16px;
+}
+.pycv-wrap{
+    background-color: #F2F2F2;
+    padding: 30px 0px;
+    text-align: center;
+}
+.pycv-wrap .pyvstxt{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;    
+}
+.pycv-wrap ul{
+    padding-left: 0px;    
+}
+.pycv-wrap ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 32px;    
+}
+.pycv-wrap ul li:last-child{    
+    margin-right: 0px;    
+}
+.pycv-wrap ul li a{    
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #666666;
+    text-decoration: none;    
+}   
+
+*/
+    </style>   
+    
+    
+</head>
+
+<body>    
+   
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <a class="skip-main acad" href="javascript:void(0);">Accessibility Adjustment</a>
+
+    <h1 class="BDJS"><strong>Employers offer jobs</strong> from the Bangladesh's #1 employment marketplace!</h1>
+    
+    <div class="rguide shd"></div>
+
+    <!--Accessibility Control Start-->
+    <div class="control-panel" style='display:none;'>
+        <div class="panel-header">
+            <div class="acctoggle-btn"><img src="https://corporate3.bdjobs.com/images/disability.svg?v=ver01" alt="Accessibility Adjustment Toggle Button" /></div>
+            <h2 class="name">Accessibility Adjustments <span class="icon-acsbi-person"></span></h2>
+        </div>
+        <div class="box-wrap">
+            <div class="font-control">
+                <div id="btn-decrease" class="btn">A<sup>-</sup></div>
+                <div id="btn-orig" class="btn">A<sup>o</sup></div>
+                <div id="btn-increase" class="btn">A<sup>+</sup></div>
+            </div>
+            <div class="monochrome-wrap">
+                <div id="f-monocclr" class="btn"><span class="icon-monochrome"></span> Monochrome</div>
+            </div>
+            <div class="invert-wrap">
+                <div id="f-invertclr" class="btn"><span class="icon-invert-colors"></span> Invert Colors</div>
+            </div>
+            <div class="larrw-wrap">
+                <div id="f-larrw" class="btn"><span class="icon-large-cursor"></span> Big Cursor</div>
+            </div>
+            <div class="linkh-wrap">
+                <div id="f-linkh" class="btn"><span class="icon-linkh"></span> Highlight Links</div>
+            </div>
+            <div class="sheadings-wrap">
+                <div id="f-sheadns" class="btn"><span class="icon-headerh"></span> Show Headings</div>
+            </div>
+            <div class="readingde-wrap">
+                <div id="f-readgde" class="btn"><span class="icon-reading-guide"></span> Reading Guide</div>
+            </div>
+            
+                <div class="scr-wrap">
+                    <div class="btn" onclick="window.open('https://jobs.bdjobs.com/Accessibility-Statement.asp#ScreenReaderAccess')"><span class="icon-screen-reader"></span>Download screen reader</div>
+                </div>
+            
+        </div>
+    </div>
+
+    <script>
+        var $affectedElements = ""; //$("h1,h2,h3,h4,h5,h6,ul,ol,input,div,p,a,button,span,li,strong,b,i,hr");
+        var $acccessibilityClick = 0;
+        $(document).ready(function() {
+            // new script add
+            $(document).click(function () {
+                if($(".control-panel").hasClass("open")){
+                    $(".control-panel").removeClass("open").removeAttr("tabindex");
+                    $(".control-panel").find(".btn").removeAttr("tabindex").removeAttr("role").removeAttr("aria-pressed");
+                    $(".control-panel").find(".acctoggle-btn").removeAttr("tabindex").removeAttr("role").removeAttr("aria-pressed");
+                }
+            });
+            $(document).on("click", ".control-panel,.acad", function (e) {
+                e.stopPropagation();
+            });
+
+
+            $(".acad").on("click", function() {
+                $(".acctoggle-btn").trigger("click");
+                $(".control-panel").focus();
+            });
+
+            $(".acctoggle-btn").on("click", function() {
+                if($(".control-panel").hasClass("open")){
+                    $(".control-panel").removeClass("open").removeAttr("tabindex");
+                    $(".control-panel").find(".btn").removeAttr("tabindex").removeAttr("role").removeAttr("aria-pressed");
+                    $(".control-panel").find(".acctoggle-btn").removeAttr("tabindex").removeAttr("role").removeAttr("aria-pressed");
+                }else{
+                    $(".control-panel").addClass("open").attr("tabindex","0");
+                    $(".control-panel").find(".btn").attr("tabindex","0").attr("role","button").attr("aria-pressed","false");
+                    $(".control-panel").find(".acctoggle-btn").attr("tabindex","0").attr("role","button").attr("aria-pressed","false");
+                    isOffLayer=false;
+                }
+            });
+            
+            $(document).on("keypress",".control-panel div[role=button]",function(e){
+                if (e.key === "Enter") {                    
+                    $(this).trigger("click");
+                }
+            });
+
+            $(document).on("click",".control-panel div[role=button]",function(e){
+                $(this).toggleAriaPressed();
+            });
+            console.log($affectedElements)
+            //$affectedElements = $("h1,h2,h3,h4,h5,h6,ul,ol,input,div,p,a,button,span,li,strong,b,i,hr");
+            $affectedElements = $("h1,h2,h3,h4,h5,h6,ul,ol,input,select,textarea,div,p,a,button,span,li,strong,b,i,hr,fieldset,label");
+            console.log($affectedElements)
+            
+            $affectedElements.each(function() {
+                $(this).data("orig-size", $(this).css("font-size"));
+            });
+
+
+            $(document).on("click", "#btn-increase", function() {
+                console.log($affectedElements)
+                changeFontSize(1); 
+            });
+
+
+            
+            $(document).on("click", "#btn-decrease", function() {
+                console.log($affectedElements)
+                changeFontSize(-1);
+            })
+
+            $(document).on("click", "#btn-orig", function() {            
+                $acccessibilityClick = 0;
+                $affectedElements.each(function() {
+                    $(this).css("font-size", $(this).data("orig-size"));
+                });
+            })
+
+            function changeFontSize(direction) {
+                $acccessibilityClick = $acccessibilityClick + direction;
+                $affectedElements.each(function() {
+                    $(this).css("font-size", parseInt($(this).css("font-size")) + direction);
+                });
+            }          
+
+            $(document).on("click", "#f-monocclr", function() {
+                $("html").toggleClass("monocclr");
+            });
+
+            $(document).on("click", "#f-invertclr", function() {
+                $("html").toggleClass("invertclr");
+            });
+
+            $(document).on("click", "#f-larrw", function() {
+                $("html *").toggleClass("bcursor");
+
+
+            //var bigCursor = $("div.larrw-wrap #f-larrw").hasClass("bcursor")
+             $("#myHiddenField").val($("div.larrw-wrap #f-larrw").hasClass("bcursor"));
+
+                let strBigCursorPress = "";
+                strBigCursorPress = $('#f-larrw').attr('bcClicked');
+                console.log("curPress1: "+strBigCursorPress);
+                if(strBigCursorPress == "true"){        
+                    console.log("curPress2: "+strBigCursorPress);
+                    $("#f-larrw").attr('bcClicked', 'false');
+                }else{
+                    $("#f-larrw").attr('bcClicked', 'true');
+                }
+                //$("#f-larrw").attr('bcClicked', 'true');
+            });
+            // else{
+            //     $("#f-larrw").attr('bcClicked', 'false');
+            // }
+
+            $(document).on("click","#f-linkh",function() {
+				$("a").toggleClass("lnk-highlited");
+                $("button").toggleClass("lnk-highlited");
+				$('input[type="submit"],input[type="button"]').toggleClass("lnk-highlited");				
+            });
+            
+            var $affectedElementsmm = $("h1, h2, h3, h4, h5, h6, [role=heading]");
+			$(document).on("click","#f-sheadns",function() {
+				$affectedElementsmm.each(function () {
+					$(this).toggleClass("headings-highlited");
+				});
+            });
+            
+            $(document).on("click", "#f-readgde", function() {
+                $(".rguide").toggleClass("shd");
+                $(document).on('mousemove', function(e){
+                    $('.rguide').css('top', e.pageY-15);
+                });
+            });
+
+            $.fn.toggleAriaPressed=function(){
+                if($(this).attr("aria-pressed")=="true"){
+                    $(this).attr("aria-pressed","false");
+                }else{
+                    $(this).attr("aria-pressed","true");
+                }
+            }            
+            //jobdetails modal close
+            $(document).on("click", ".close.bcursor", function() {
+                ToggleBigCursorClass();
+            });  
+            //jobdetails- apply online escap button press
+                   
+        });
+        function ToggleBigCursorClass(){
+            console.log("outside");
+            let strBigCursorPress = "";
+            strBigCursorPress = $('#f-larrw').attr('aria-pressed');
+            if(strBigCursorPress == "true"){
+                console.log("inside");
+                $("html *").toggleClass("bcursor");
+            }
+        }
+    </script>
+
+    <style>
+        .control-panel {
+            width: 210px;
+            position: fixed;
+            top: 30%;
+            left: 100%;
+            transition: all 0.3s ease-in-out;
+            transform: translateX(0%);
+            z-index: 9999;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        
+        .control-panel.open {
+            transform: translateX(-100%);
+        }
+        
+        .control-panel .panel-header {
+            background-color: #444;
+            display: flex;
+            align-items: center;
+        }
+        
+        .control-panel .panel-header .acctoggle-btn {
+            background-color: #444;
+            border-radius: 5px 0px 0px 5px;
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            margin-left: -36px;
+            text-align: center;
+            padding: 8px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        
+        .control-panel .panel-header .acctoggle-btn img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .control-panel .panel-header .name {
+            color: #fff;
+            margin: 0px auto;
+            padding: 0px;
+            font-size: 14px;
+            padding-left: 10px;
+        }
+        
+        .control-panel .panel-header .name .picn {
+            margin-right: 10px;
+        }
+        
+        .control-panel .box-wrap {
+            background-color: #444;
+            padding: 10px;
+        }
+        
+        .control-panel .box-wrap .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: left;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-color: #efefef;
+            border: 1px solid transparent;
+            padding: 2px 5px;
+            font-size: 14px;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        .control-panel .box-wrap .btn span {
+            margin-right: 5px;
+        }
+        
+        .control-panel .box-wrap .font-control {
+            margin-bottom: 10px;
+        }
+
+        .control-panel .box-wrap .invert-wrap, .control-panel .box-wrap .larrw-wrap, .control-panel .box-wrap .sheadings-wrap,
+        .control-panel .box-wrap .readingde-wrap, .control-panel .box-wrap .monochrome-wrap, .control-panel .box-wrap .linkh-wrap{
+            margin-bottom: 10px;
+        }       
+        .control-panel .box-wrap .invert-wrap .btn, .control-panel .box-wrap .larrw-wrap .btn, .control-panel .box-wrap .sheadings-wrap,
+        .control-panel .box-wrap .monochrome-wrap .btn, .control-panel .box-wrap .linkh-wrap .btn, .control-panel .box-wrap .scr-wrap .btn,
+        .control-panel .box-wrap .readingde-wrap .btn, .control-panel .box-wrap .sheadings-wrap .btn{
+            min-width: 190px;
+        }
+
+        .control-panel .box-wrap .scr-wrap {
+            margin-bottom: 0px;
+        }
+        
+        .control-panel .box-wrap .font-control {
+            display: block;
+        }
+        
+        .control-panel .box-wrap .font-control .btn:last-child {
+            margin-right: 0px;
+        }
+        
+        .monocclr {
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+        .invertclr {
+            filter: invert(100%);
+		  -webkit-filter: invert(100%);
+		  -moz-filter: invert(100%);
+		  -ms-filter: invert(100%);
+		  -o-filter: invert(100%);
+        }
+        html.bcursor * {
+            cursor: url("images/arrow_w.svg"),auto!important;
+        }
+        .bcursor {
+            cursor: url("images/arrow_w.svg"),auto!important;
+        }
+        .lnk-highlited {
+            border: 2px solid #fbb78a;
+            background-color: #ecc200 !important;
+			color: #000000 !important;
+		}
+        .headings-highlited {
+            border: 2px solid #fbb78a;
+            background-color: #ecc200 !important;
+			color: #000000 !important;
+		}
+        .rguide {
+            box-sizing: border-box;
+            background: #000;
+            width: 99%!important;
+            min-width: 100%!important;
+            position: absolute!important;
+            height: 12px!important;
+            border: solid 3px #fff300;
+            border-radius: 5px;
+            top: 20px;
+            z-index: 10000000000;
+        }
+        .rguide.shd{
+            display: none;
+        }
+    </style>
+    <!--Accessibility Control End--> 
+
+    
+    <!-- Job Header Top Start -->   
+    
+    <div id="lout_header_top"></div>
+    <div id="lin_header_top01"></div>
+    <div id="lin_header_top02">
+	    
+
+        <div class="topBar" id="menu">
+            <div class="container">
+                <ul class="pull-left brands">
+                    <li><a href="javascript:void(0);" class="jobs active">Jobs</a></li>
+                    
+                    <li><a href="https://mybdjobs.bdjobs.com/" class="mybdjobs" target="_blank" rel="noopener">My Bdjobs</a></li>
+                    <li><a href="https://bdjobs.com/m_d_l/" class="training" target="_blank" rel="noopener">Training</a></li>
+                    <li><a href="https://corporate3.bdjobs.com/" class="corporate" target="_blank" rel="noopener">Employers</a></li>
+                </ul>
+                <div class="topBar-right pull-right">
+                <ul class="pull-left icons">
+				     	<li><a href="https://www.youtube.com/mybdjobs" target="_blank" aria-label="Visit Youtube Channel" rel="noopener"><span class="sr-only">youtube</span><i class="icon-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/mybdjobs" target="_blank" aria-label="Visit Facebook Page" rel="noopener"><span class="sr-only">facebook</span><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://b.bdjobs.com/google-post" target="_blank" aria-label="Visit Google Page" rel="noopener"><span class="sr-only">google plus</span><i class="icon-google-plus"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/mybdjobs" target="_blank" aria-label="Visit LinkedIn Page" rel="noopener"><span class="sr-only">linkedin</span><i class="icon-linkedin"></i></a></li>
+                        <li><a href="https://www.bdjobs.com/contact.asp" target="_blank" aria-label="Call Us" rel="noopener"><span class="sr-only">contact</span><i class="icon-phone"></i></a></li>
+                     </ul>
+                   <!-- <ul class="pull-left icons">
+                        <li>
+                            <a href="https://www.facebook.com/mybdjobs" class="facebook" target="_blank" rel="noopener">
+                                <span class="sr-only">facebook</span> <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://b.bdjobs.com/google-post" class="google-plus" target="_blank" rel="noopener">
+                                <span class="sr-only">google</span> <i class="icon-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/mybdjobs" class="youtube" target="_blank" rel="noopener">
+                                <span class="sr-only">youtube</span> <i class="icon-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bdjobs.com/contact.asp" class="phone" target="_blank" rel="noopener">
+                                <span class="sr-only">Contact</span> <i class="icon-phone"></i>
+                            </a>
+                        </li>
+                    </ul>-->
+                    
+                        <!-- <div class="btn-group lang-btn" role="group" aria-label="..."> -->
+                            <!-- <button type="button" class="btn active">ENG</button> -->
+                            <!-- <a href="javascript:void(0);" class="btn active"> ENG</a>
+                            <a href="https://jobs.bdjobs.com/bn/company_listbn.asp" class="btn bn"> <img src="https://jobs.bdjobs.com/images/bn.png" alt="Bangla" ></a>
+                        </div> -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Header Top End -->
+
+    <!-- Job Header Start -->
+    
+    <div class="spinner-container" id="spinner-container">
+        <div class="layer-mask">
+            <div class="spinner-body" id="spinnerHolder">
+            </div>
+        </div>
+   </div>
+	<div id="lout_header_mid"></div>
+	<div id="lin_header_mid01"></div>
+	
+	<div id ="lin_header_mid02">	
+ 
+	
+	<div class="header" role="banner">
+		<div class="container">
+			
+			<nav class="navbar">
+			<div class="logo">
+				<!-- <a href="https://bdjobs.com"><img class="img-responsive" height="52" width="175" src="https://www.bdjobs.com/images/logo.png" alt="Logo of bdjobs.com" title="bdjobs.com logo" ></a> -->
+				<a href="https://bdjobs.com"><img class="img-responsive" src="/pagestatus/images/logo.png" alt="Logo of bdjobs.com" title="bdjobs.com logo" ></a>
+			</div>
+			<ul class="nav navbar-nav">
+				
+					<li class="m-menu switch">
+						<a href="https://jobs.bdjobs.com/bn/company_listbn.asp"><img src="/pagestatus/images/bn-switch.png" alt="switch to bangla"></a>
+					</li>
+				
+                  	<li class="m-menu employabilite">
+					  	<a href="https://mybdjobs.bdjobs.com/mybdjobs/assessment/smnt_certification_help.asp" onclick="ga('send','event','nabarmenu' , 'EmployabiliteB2C','click',1);" style="color: #8D4507;" _ target="_blank" rel="noopener">Employability Test&nbsp;<span class="badge pull-right"  style="padding: 1px 7px 3px 7px; font-size: 11px;margin-top: -5px;position: relative;background-color: #8D4507;;">new</span></a>
+					</li>	 				
+				<li class="m-menu"><a href="https://jobs.bdjobs.com/jobsearch.asp">Job Search</a></li>
+				<li class="m-menu">
+					<a href="javascript:void(0);" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Quick Links <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=new">New Jobs</a></li>
+						<li><a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=deadline">Deadline Tomorrow</a></li>
+						<li><a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=parttime">Part Time</a></li>
+						<li><a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=contract">Contractual</a></li>
+						<li><a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=government">Government</a></li>
+						<li><a href="https://jobs.bdjobs.com/locationwisejobs.asp">Location Wise</a></li>
+                        <li><a href="https://jobs.bdjobs.com/Company_list.asp">Employer List</a></li>
+					</ul>
+				</li>
+				<li class="m-menu">
+					<a href="javascript:void(0);" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Career Resources <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="https://bdjobs.com/career/CareerGuide/" target="_blank" rel="noopener">Career Guide</a></li>
+						<li><a href="https://bdjobs.com/career/interview.asp" target="_blank" rel="noopener">Interview Tips</a></li>
+						<li><a href="https://bdjobs.com/career/resumewriting/resume.asp" target="_blank" rel="noopener">Resume Writing Tips</a></li>
+						<li><a href="https://bdjobs.com/cover_letter/" target="_blank" rel="noopener">Cover Letter</a></li>
+						<li><a href="https://bdjobs.com/career/article/" target="_blank" rel="noopener">Articles</a></li>
+						<li><a href="https://bdjobs.com/career/careercouncil/CareerCounsellingCategory.asp" target="_blank" rel="noopener">Career Counseling<span class="badge" style="background-color: #b3003c;font-size: 12px; position: relative; line-height:10px; padding:1px 7px 2px 7px; margin:1px 0px 0px 4px;">new</span></a></li>
+						<li><a href="https://bdjobs.com/career/training/" target="_blank" rel="noopener">Education Guide</a></li>
+					</ul>
+				</li>
+				
+					
+						<li class="login">
+                        
+							<a href="https://mybdjobs.bdjobs.com/mybdjobs/signin.asp?]s^.[salbybaam^C^m[c`s^o`db.abbjb/`s_t\h]eca_n\uce]&^i\o[s]o`=]p]a[t[i\__n[paoa/^o_._bbj]b\s_o[/_:\pZt_=ag]p_r_tcran^g`Lbb^j`p7" class="btn btn-success btn-login">Sign In</a>
+						</li>
+						<li class="m-menu">
+							<a href="https://mybdjobs.bdjobs.com/createaccount.asp" target="_blank" rel="noopener">Create Account</a>
+						</li>
+						<li style="position: relative;" class="login-list">
+							
+						</li> 
+						
+					     			
+				<li class="mobile-menu">
+                    <a href="javascript:void(0);" class="btn navbar-toggle">
+                        <span class="sr-only">nav menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </li>
+			</ul>
+			</nav>
+		</div>
+	</div>
+	<ul class="phone-show dropdown-menu nav navbar-nav">
+		<li class="close-btn">
+			<a href="javascript:void(0);"><span class="m-times">&times;</span>Close</a>
+		</li>
+		<li class="divider"></li>        
+	</ul>
+	<div class='modal-backdrop in header-mobile-menu'></div>
+	</div>
+
+	
+<!--Top And Header End-->
+
+    <!-- Job Header End -->
+    
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="fnfthree-wrap">
+                    <div class="icimg-wrap">
+                        <img class="img-responsive" src="/pagestatus/images/fzfeicon.png" alt="Something went wrong! icon">
+                    </div>
+                    <div class="errnum">
+                        404
+                    </div>
+                    <div class="errtxt">
+                        Something went wrong!
+                    </div>
+                    <div class="errdesc">
+                        We are unable to find the page you are looking for. The URL is no longer available or does not exist. Visit our other pages in the meantime.
+                    </div>
+                    <div class="bacthpwrap">
+                        <a class="bacthpbtn" href="https://www.bdjobs.com/" onclick="_gaq.push(['_trackEvent', 'bdjobs_com__errorPage', 'Click', '500', 1.00, true]);">Back to home page</a>
+                    </div>
+                    <div class="searjobs-wrap">
+                        <div class="sjstxt">Search Jobs</div>
+                        <div class="form-group csears">
+                        <form action="//jobs.bdjobs.com/jobsearch.asp" method="post" target="_blank">
+                            <!--  <span class="icon-search ico" aria-hidden="true"></span>
+                            <input type="text" class="form-control" placeholder="Keyword">  -->
+                            <button style="margin-top: 0px; background-color: transparent; border: 0px;" type="submit" class="icon-search ico"></button>
+                            
+                            <input type="text" name="txtsearch" id="txtKeyword" maxlength="50" class="form-control" placeholder="Search by keyword" spellcheck="false" aria-label="txtsearch">
+                            <input type="hidden" id="hidJobSearch" name="hidJobSearch" value="jobsearch">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pycv-wrap">
+        <div class="container" id="main">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pyvstxt">Pages you can visit:</div>
+                    <ul>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/Company_list.asp">Employer List</a>
+                        </li>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=deadline">Deadline Tomorrow</a>
+                        </li>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=parttime">Part Time Jobs</a>
+                        </li>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/JobSearch.asp?workstation=home">Work From Home</a>
+                        </li>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=new">New Jobs (24 hrs)</a>
+                        </li>
+                        <li>
+                            <a href="https://jobs.bdjobs.com/OtherJobs.asp?JobType=contract">Contractual Jobs </a>
+                        </li>
+                        <li>
+                            <a href="https://bdesh.bdjobs.com/default.asp">Overseas Jobs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Job Footer Start -->
+    
+<!-- Fat footer -->
+<div id="footer" role="contentinfo">
+
+    <div id="lout_footer"></div>
+    <div id="lin_footer01"></div>
+    <div id="lin_footer02">
+        <!-- <div id="footer">     -->
+            <!--pn:/Company_list.asp -->
+
+            <div class="fatFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer">
+                            <div class="col-md-3 col-sm-3">
+                                <h2>About Us</h2>
+                                <ul>
+                                    <li><a target="_blank" href="https://bdjobs.com/about.asp" rel="noopener">About Bdjobs.com</a></li>
+                                    <li><a target="_blank" href="https://bdjobs.com/tos.asp" rel="noopener">Terms &amp; Conditions</a></li>
+                                    <li><a target="_blank" href="https://jobs.bdjobs.com/Accessibility-Statement.asp" rel="noopener">Accessibility Statement</a></li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="in-partners">International Partners&nbsp;<i class="icon-angle-down"></i></a>
+                                    </li>
+                                    <li>
+                                        <ul class="all-partners">
+                                            <li><a href="https://babajob.com/" target="_blank" rel="noopener">BabaJob</a> <strong>(India)</strong></li>
+                                            <li><a href="https://www.brightermonday.com/" target="_blank" rel="noopener">Brighter Monday</a> <strong> (<!-- East --> Africa)</strong></li>
+                                            <li><a href="https://www.catho.com.br/" target="_blank" rel="noopener">Catho</a> <strong>(Brazil)</strong></li>
+                                            <li><a href="https://www.jobberman.com/" target="_blank" rel="noopener">Jobberman</a> <strong>(West Africa)</strong></li>
+                                            <li><a href="https://www.jobsdb.com/" target="_blank" rel="noopener">jobsDB</a> <strong>(S.E Asia)</strong></li>
+                                            <li><a href="https://www.jobstreet.com/" target="_blank" rel="noopener">JobStreet</a> <strong>(S.E Asia)</strong></li>
+                                            <li><a href="https://www.jora.com/" target="_blank" rel="noopener">Jora</a> <strong>(Worldwide)</strong></li>
+                                            <li><a href="https://www.manager.com.br/" target="_blank" rel="noopener">Manager</a> <strong>(Brazil)</strong></li>
+                                            <li><a href="https://www.occ.com.mx/" target="_blank" rel="noopener">OCC Mundial </a> <strong>(Mexico)</strong></li>
+                                            <li><a href="https://www.seek.com.au/" target="_blank" rel="noopener">SEEK</a> <strong>(Australia)</strong></li>
+                                            <li><a href="https://www.workana.com" target="_blank" rel="noopener">Workana</a> <strong>(Workana)</strong></li>
+                                            <li><a href="https://www.zhaopin.com/" target="_blank" rel="noopener">Zhaopin</a> <strong>(China)</strong></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);" class="ot-partners">Other Partners &nbsp;<i class="icon-angle-down"></i></a>
+                                    </li>
+                                    <li>
+                                        <ul class="oth-partners">
+                                            <li>
+                                                <a href="javascript:void(14);" class="adeal">AjkerDeal&nbsp; <strong>(Bangladesh)</strong> <i class="icon-angle-down"></i></a> 
+                                                <ul class="adeal-wrap nav-list collapse">
+                                                    <li><a href="https://ajkerdeal.com/" target="_blank" rel="noopener">AjkerDeal </a></li>
+                                                    <li><a href="https://blog.ajkerdeal.com/" target="_blank" rel="noopener">Blog</a></li>
+                                                    <li><a href="https://classified.ajkerdeal.com/" target="_blank" rel="noopener">Classified</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a rel="noopener" href="https://deliverytiger.com.bd/" target="_blank">Delivery Tiger</a> <strong> (Bangladesh)</strong></li>
+                                            <li><a rel="noopener" href="https://www.beshto.com/" target="_blank">Beshto</a> <strong> (Bangladesh)</strong></li>
+                                            <li><a rel="noopener" href="http://www.aspiringminds.com/" target="_blank">Aspiring Minds</a> <strong>(India)</strong></li>
+                                        </ul>
+                                    </li>
+                                    <li><a target="_blank" href="https://bdjobs.com/policy/Privacy_policy.asp"rel="noopener">Privacy  Policy</a></li>
+                                    <li><a target="_blank" href="https://jobs.bdjobs.com/feedback.asp" rel="noopener">Feedback</a></li>
+                                    <li><a target="_blank" href="https://bdjobs.com/contact.asp" rel="noopener">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <h2>Job Seekers</h2>
+                                <ul>
+                                    
+                                    <li><a target="_blank" href="https://mybdjobs.bdjobs.com/createaccount.asp" rel="noopener">Create Account</a></li>
+                                    <li>
+                                        <a target="_blank" href="https://bdjobs.com/career/careercouncil/CareerCounsellingCategory.asp" rel="noopener">
+                                            Career Counseling
+                                            <span class="badge" style="background-color: #B3003C;font-size: 12px; position: relative; line-height:10px; padding:1px 7px 2px 7px; margin:1px 0px 0px 4px;">
+                                                new
+                                            </span>
+                                        </a>
+                                    </li>                           
+                                    <li><a target="_blank" href="https://mybdjobs.bdjobs.com/" rel="noopener">My Bdjobs</a></li>
+                                    <li><a target="_blank" href="https://mybdjobs.bdjobs.com/mybdjobs/faq.asp#1" rel="noopener">FAQ</a></li>
+                                    <li><a target="_blank" href="https://mybdjobs.bdjobs.com/mybdjobs/videoHelp2.asp" rel="noopener">Video Guides</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <h2>Employers</h2>
+                                <ul>
+                                    <li><a target="_blank" href="https://corporate3.bdjobs.com/Corporate_NewAccount.asp" rel="noopener">Create Account</a></li>
+                                    
+                                    <li><a target="_blank" href="https://corporate3.bdjobs.com/services.asp" rel="noopener">Products/Service</a></li>
+                                    <li><a target="_blank" href="https://corporate3.bdjobs.com/" rel="noopener">Post a Job</a></li>
+                                    <li><a target="_blank" href="https://corporate3.bdjobs.com/help/help.asp" rel="noopener">FAQ</a></li>
+                                    <li>
+                                        <h3 class="app-heading">Download Employer App</h3>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bdjobs.recruiter" rel="noopener">
+                                            <img class="google-play-badge" src="/pagestatus/images/google-play-badge.svg" alt="Download Employer App">
+                                        </a>                                
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-3 col-sm-3">
+                                <h2>Tools &amp; Social Media</h2>
+                                <ul>
+                                    <li><a target="_blank" href="https://bdjobs.com/apps/" rel="noopener"><img class="footer-icon" src="/pagestatus/images/bdjobs-android-app-color.svg" alt="App">Bdjobs Android App</a></li>
+                                    <li><a target="_blank" href="https://bdjobs.com/apps/ios/index.html" rel="noopener"><img class="footer-icon" src="/pagestatus/images/bdjobs-android-app-color.svg" alt="app iOS">Bdjobs iOS App</a></li>
+                                    <li><a target="_blank" href="https://www.facebook.com/mybdjobs" rel="noopener"><img class="footer-icon" src="/pagestatus/images/facebook-color.svg" alt="social link fb" >Facebook</a></li>
+                                    <li><a target="_blank" href="https://b.bdjobs.com/google-post" rel="noopener"><img class="footer-icon" src="/pagestatus/images/google-plus-color-new.svg" alt="social link google" >Google</a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/mybdjobs" rel="noopener"><img class="footer-icon" src="/pagestatus/images/youtube-color.svg" alt="social link youtube" >Youtube</li></a>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/mybdjobs" rel="noopener"><img class="footer-icon" src="/pagestatus/images/linkedin-color.svg" alt="social link linkedin">LinkedIn</a></li>                            
+                                    <li>
+                                        <h3 class="app-heading">Download Mobile App</h3>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.bdjobs.app" style="display:inline-block;margin:0 5px 5px 0;">
+                                                <img class="google-play-badge" src="/pagestatus/images/google-play-badge.svg" alt="Download Mobile App for android">
+                                            </a>
+                                    
+                                            <a target="_blank" rel="noopener" href="https://bdjobs.com/apps_helper/default_oldapps.asp" style="display:inline-block;">
+                                                <img class="google-play-badge" src="/pagestatus/images/bdjobs_app_old_badge.svg" alt="Download Mobile old App for androi">
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener" href="https://itunes.apple.com/in/app/bdjobs/id1435728822?mt=8">
+                                            <img class="google-play-badge" src="/pagestatus/images/App-Store-Badge.svg" alt="Download Mobile App for iOS">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> 
+                                    
+                            <div class="col-md-12 col-sm-12">
+                                <div class="f-contacts">
+                                    Need any support ? Call to <span><!--09612444888-->16479, 09612444888</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+
+    <style type="text/css">
+        .warning-footer {
+            display: none;
+        }
+        
+        @media only screen and (min-width:0px) and (max-width:767px) {
+            .warning-footer {
+                background-color: #eeeeee;
+                border-top: 2px solid #B71C1C;
+                bottom: 0;
+                margin: 0;
+                border-radius: 0;
+                padding: 5px 0px 5px 0px;
+                z-index: 1040;
+                left: 0px;
+                right: 0px;
+                display: block;
+                position: relative;
+            }
+            .quit-btn {
+                font-size: 30px;
+                padding: 0;
+                background-color: transparent;
+                color: #5B5B5B;
+            }
+            .quit-btn {
+                position: absolute;
+                right: 10px;
+                top: -12px;
+            }
+            .msctxt {
+                margin: 0px 15px 0px 0px;
+            }
+            .msctxt span {
+                display: inline-block;
+                font-family: SolaimanLipi;
+                font-size: 15px;
+            }
+            .msctxt span strong {
+                text-decoration: underline;
+            }
+        }
+    </style>
+
+    <div class="alert alert-danger warning-footer">
+        <div class="container">	
+                <div class="row">			   
+                <div class="col-sm-12">	   						
+                    <div class="msctxt">
+                    <span>বিডিজবস-এ প্রকাশিত যেকোনো চাকরি সংক্রান্ত তথ্য নিয়োগকারী প্রতিষ্ঠান কর্তৃক দেওয়া হয়ে থাকে। প্রকাশিত যেকোনো ধরণের চাকরি তথ্য বা নিয়োগ-প্রক্রিয়ার দায়-দায়িত্ব স্ব-স্ব নিয়োগকারী প্রতিষ্ঠানের। এ সংক্রান্ত কোনো অসত্য বা অসম্পূর্ন তথ্য অথবা আর্থিক লেনদেনের দায় বিডিজবস-এর নয়। <strong>চাকরিপ্রার্থীদের এই ব্যাপারে সতর্ক হবার জন্য পরামর্শ দেওয়া হচ্ছে।</strong></span>
+                    </div>
+                                        
+                    <button onclick="warningQuit()" class="btn quit-btn" aria-label="Close conditions message">
+                        <span aria-hidden="true">×</span>
+                    </button>	   
+            
+                </div>			   
+            </div>
+            
+        </div>
+        </div>
+
+        <script>
+        function warningQuit(){
+            $('.warning-footer').slideUp();
+        }
+        </script>
+
+    <!--sticky banner style-->
+    <style>
+        .btm-bann-wrap {
+            display: none;
+        }
+        @media only screen and (min-width:0px) and (max-width:767px) {
+            .btm-bann-wrap{
+                width: 100%;
+                position: fixed;
+                left: 0px;
+                z-index: 10000;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                background: rgb(255, 255, 255);
+                bottom: 0px;
+                box-shadow: rgba(17, 58, 102, 0.45) 0px 4px 6px 3px;
+                visibility: visible;
+            }
+            .btm-bann-wrap .bann-cont-wrap{
+                pointer-events: all;
+                position: relative;
+                display: flex;
+                justify-content: center;
+            }
+            .btm-bann-wrap .bann-cont-wrap .btm-bann-c{
+                width: 728px;
+                height: 90px;
+            }
+            .btm-bann-wrap .btm-bann-close{
+                width: 26px;
+                height: 26px;
+                background: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+                right: 0px;
+                position: absolute;
+                top: 0px;
+                transform: translate(0%, -100%);
+                border: none;
+                border-radius: 8px 0px 0px;
+                box-shadow: rgba(17, 58, 102, 0.35) -1px -1px 2px 0px;
+            }
+            .btm-bann-wrap .btm-bann-close .btm-close{
+                background-color: #ffffff;
+                border-radius: 8px 0px 0px;
+                border: none;
+                padding: 5px 5px 5px 8px;
+                font-size: 12px;
+            }
+
+            @media only screen and (max-width:767px) {
+                .btm-bann-wrap .bann-cont-wrap .btm-bann-c{
+                    width: auto;
+                    height: auto;
+                } 
+            }
+        }
+    </style> 
+
+    <!-- Job Footer End -->
+
+    <img id='docImg' src=""  >
+    <script>
+        //on 07aug2021-1140am
+        // <img src="https://bdjobs.com/pagestatus/admin/sendmail3.aspx" >
+        location_href = location.href ;
+        imgLink = "<img src='https://bdjobs.com/pagestatus/admin/sendmail3.aspx?LHR=" + location_href + "' >"
+        //document.write(imgLink) ;//on 07aug2021-1125am //off 25jun2021-0144am //
+        docImgSrc = "https://bdjobs.com/pagestatus/admin/sendmail3.aspx?p=404&LHR="  + location_href ;
+        //document.getElementById("docImg").src = docImgSrc ;
+
+        ////onload="_gaq.push(['_trackEvent', 'bdjobs_com__errorPage', 'Impression', '500', 1.00, true]);"
+
+    </script>
+    <script>
+
+    $(document).ready(function(){
+      $("img#gglAnalyticsImg").load(function(){
+        //alert("Image loaded.1");
+        //document.getElementById("p2").innerHTML = "21" //+ /new Date() ;
+        _gaq.push(['_trackEvent', 'bdjobs_com__errorPage', 'Impression', '404_location :: '+ location_href, 1.00, true]);
+      });
+    });
+    
+    </script>
+    <!--- 
+            <img id='gglAnalyticsImg' src="/pagestatus/images/bdjHomeSite404error4gglAnalytics.png"  onload="_gaq.push(['_trackEvent', 'bdjobs_com__errorPage', 'Impression', '404', 1.00, true]);" >
+
+    ---> 
+       <img id='gglAnalyticsImg' src="/pagestatus/images/bdjHomeSite404error4gglAnalytics.png"   >
+    
+
+
+</body>
+</html>
