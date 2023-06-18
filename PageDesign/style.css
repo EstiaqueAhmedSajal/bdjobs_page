@@ -1,0 +1,39 @@
+body{
+    font-size: 11px;
+}
+table.table-bordered td {
+    
+    border-color: black;
+    
+  }
+
+
+
+img{
+    width: 14px;
+}  
+.btn-small {
+    font-size: 12px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0px;
+  }
+
+  tr {
+    height: 50px;
+    vertical-align: middle;
+  }
+  
+  .post_link {
+    color: green;
+    font-weight: bold;
+  }
+
+  .verified{
+    color: blue;
+    font-weight: bold;
+  }
+
+
+
+
+  
