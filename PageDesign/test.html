@@ -1,150 +1,89 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Bootstrap Table</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <style>
-    .row-color:nth-child(odd) {
-      background-color: #f9f9f9;
-    }
-    .row-color:nth-child(even) {
-      background-color: #e9e9e9;
-    }
-    .column-color:nth-child(odd) {
-      background-color: #d1d1d1;
-    }
-    .column-color:nth-child(even) {
-      background-color: #c1c1c1;
-    }
-  </style>
+    <title>Bootstrap Modal Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
-
 <body>
-  <div class="container">
-    <div class="row row-color">
-      <div class="col column-color">1</div>
-      <div class="col column-color">Walkon Travel & Tourism <a href="#">(Dhaka)</a></div>
-      <div class="col column-color"><img src="/images/building.png" alt=""><img src="/images/reputed_verifedjobs.png" width="25px" ></div>
-      <div class="col column-color">.<a href="#">BIM Manager / Unity Developer / Structural Engineer</a>=1155814</div>
-      <div class="col column-color"><a href="#">Post Bangla Job</a></div>
-      <div class="col column-color">Row 1, Column 6</div>
-      <div class="col column-color"><b>Sales Dept:</b> Verified from Sales(Auto Verified) <button>Details</button></div>
-      <div class="col column-color">Row 1, Column 8</div>
-      <div class="col column-color"><a href="#">Set Comments</a></div>
-      <div class="col column-color"><button>Delete</button></div>
-    </div>
-    <div class="row row-color">
-      <div class="col column-color">2.</div>
-      <div class="col column-color">Saudi Bangla Hospital (Faridpur) (E)</div>
-      <div class="col column-color"><img src="/images/building.png" alt=""><img src="/images/Bdjobs_Udyokta_Badge.svg" width="25px" ></div>
-      <div class="col column-color"><a href="#">মার্কেটিং অফিসার</a>=1155824</div>
-      <div class="col column-color">Row 2, Column 5</div>
-      <div class="col column-color">Row 2, Column 6</div>
-      <div class="col column-color">Row 2, Column 7</div>
-      <div class="col column-color">Row 2, Column 8</div>
-      <div class="col column-color"><a href="#">Set Comments</a></div>
-      <div class="col column-color"><button>Delete</button></div>
-    </div>
-    <div class="row row-color">
-        <div class="col column-color">3.</div>
-        <div class="col column-color">Chemonics International INC (Dhaka)</div>
-        <div class="col column-color"><img src="/images/building.png" alt=""><img src="/images/Bdjobs_Udyokta_Badge.svg" width="25px" ></div>
-        <div class="col column-color"><a href="#">Communications Specialist</a>=1155823</div>
-        <div class="col column-color"><a href="#">Post Bangla Job</a></div>
-        <div class="col column-color">Verified</div>
-        <div class="col column-color"><b>Sales Dept:</b> Verified from Sales(Auto Verified) <button>Details</button></div>
-        <div class="col column-color">Checked</div>
-        <div class="col column-color"><a href="#">Set Comments</a></div>
-        <div class="col column-color"><button>Delete</button></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">4.</div>
-        <div class="col column-color">Winrock International (Dhaka)</div>
-        <div class="col column-color"><a href="#">Junior Accountant, USAID`s Esho Shikhi Activity</a>. =1155821</div>
-        <div class="col column-color"><a href="#">Post Bangla Job</a></div>
-        <div class="col column-color">Verified</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Checked</div>
-        <div class="col column-color"><a href="#">Set Comments</a></div>
-        <div class="col column-color"><button>Delete</button></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">5.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">6.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">7.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">8.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">9.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-      <div class="row row-color">
-        <div class="col column-color">10.</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-        <div class="col column-color">Row 2, Column 5</div>
-        <div class="col column-color">Row 2, Column 6</div>
-        <div class="col column-color">Row 2, Column 7</div>
-        <div class="col column-color">Row 2, Column 8</div>
-        <div class="col column-color"></div>
-        <div class="col column-color"></div>
-      </div>
-  </div>
+    <!-- Button to trigger the modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Open Modal
+    </button>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Enter Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Form inside the modal -->
+                    <form id="myForm">
+                        <div class="mb-3">
+                            <label for="startDate" class="form-label">Starting Date</label>
+                            <input type="date" class="form-control" id="startDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="endDate" class="form-label">Ending Date</label>
+                            <input type="date" class="form-control" id="endDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="amount" class="form-label">Amount to Pay</label>
+                            <input type="number" class="form-control" id="amount" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Starting Date</th>
+                <th>Ending Date</th>
+                <th>Amount</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="dataTable">
+            <!-- Data will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <input type="hidden" id="editRowId">
+                        <div class="mb-3">
+                            <label for="editStartDate" class="form-label">Starting Date</label>
+                            <input type="date" class="form-control" id="editStartDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editEndDate" class="form-label">Ending Date</label>
+                            <input type="date" class="form-control" id="editEndDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editAmount" class="form-label">Amount to Pay</label>
+                            <input type="number" class="form-control" id="editAmount" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
