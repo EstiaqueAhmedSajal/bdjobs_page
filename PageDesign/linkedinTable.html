@@ -1,63 +1,227 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Bootstrap Table Example</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- <link rel="stylesheet" href="style.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Company Name</th>
-                    <th scope="col">Job Title</th>
-                    <th scope="col">Posted Date on LinkedIn</th>
-                    <th scope="col">Closing Date on LinkedIn</th>
-                    <th scope="col">Daily Budget</th>
-                    <th scope="col">Alert for Closing</th>
-                    <th scope="col">Status/Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  
-                </tbody>
-              </table>
-          </div>
+  <style>
+    .dataTableForViewStatus {
+      padding: 0px;
+    }
+
+    .dataTableForViewStatus .dataTableForVS_In {
+      margin: 0 0 15px 0;
+      padding: 9px 15px 8px 15px;
+      background-color: #d9d9d9 !important;
+      border-radius: 6px;
+    }
+
+    .dataTableForViewStatus .dataTableForVS_In .nj {
+      text-align: center;
+    }
+
+    .dataTableForViewStatus .dataTableForVS_In span {
+      color: #333333;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .mainWrapForBorder .dataTableForViewStatusIn {
+      border: none;
+      border-bottom: 1px solid #efefef;
+      margin: 15px;
+      padding: 15px 0px 17.5px 0px;
+    }
+
+    .mainWrapForBorder .dataTableForViewStatusIn .txtLeftCont {
+      text-align: left;
+    }
+
+    .mainWrapForBorder .dataTableForViewStatusIn .txtCenterCont {
+      text-align: center;
+    }
+
+    .dataTableForViewStatus .txtRightCont,
+    .mainWrapForBorder .dataTableForViewStatusIn .txtRightCont {
+      text-align: right;
+    }
+
+    .mainWrapForBorder .dataTableForViewStatusIn:last-child {
+      border-bottom: 0px;
+    }
+
+    .mainWrapForBorder .typeOfResume a {
+      color: #616161;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .mainWrapForBorder .dataTableForViewStatusIn .txtCenterCont {
+        text-align: left;
+      }
+
+      .mainWrapForBorder .dataTableForViewStatusIn .txtRightCont {
+        text-align: left;
+      }
+    }
+
+    @media only screen and (max-width: 991px) {
+      .dataTableForViewStatus .dataTableForVS_In {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .dataTableForViewStatus .dataTableForVS_In {
+        display: none;
+      }
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      getData();
+    });
+    function getData() {
+      $.ajax({
+        url: 'MOCK_DATA.json', // Replace with the correct path to your JSON file
+        dataType: 'json',
+        success: function (data) {
+          // console.log(data);
+          if (!data) {
+            $("#main").empty();
+            $("#main").append(
+              `
+            Not Found
+            `);
+          } else {
+            $("#main").empty();
+            $("#main").append(
+              `
+                <div class="dataTableForViewStatus">
+                  <div class="dataTableForVS_In">
+                    <div class="row">
+                      <div class="col-md-1 col-sm-1"><span> Sl </span></div>
+                      <div class="col-md-2 col-sm-2">
+                        <span>Company Name</span>
+                      </div>
+                      <div class="col-md-2 col-sm-2 nj">
+                        <span>Job Title </span>
+                      </div>
+                      <div class="col-md-1 col-sm-2 np">
+                        <span>Posted Date </span>
+                      </div>
+                      <div class="col-md-1 col-sm-2 txtRightCont">
+                        <span> Closing Date </span>
+                      </div>
+                      <div class="col-md-1 col-sm-1 txtRightCont">
+                        <span> Daily Budget </span>
+                      </div>
+                      <div class="col-md-1 col-sm-1 txtRightCont">
+                        <span> Alert for closing </span>
+                      </div>
+                      <div class="col-md-1 col-sm-1 txtRightCont">
+                        <span> Status </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mainWrapForBorder" id="body"></div>
+                `
+            )
+            var html = ``;
+            data.forEach(element => {
+
+              function getCurrentDay() {
+                const date = new Date();
+
+                let day = date.getDate();
+                let month = date.getMonth() + 1;
+                let year = date.getFullYear();
+
+                // This arrangement can be altered based on how we want the date's format to appear.
+                let currentDate = `${month}/${day}/${year}`;
+                console.log(currentDate); // "17-6-2022"
+                return currentDate;
+                
+              }
+
+
+              html +=
+                `
+                  <div class="dataTableForViewStatusIn">
+                    <div class="row">
+                      <div class="col-md-1 col-sm-1"> ${element.SL}</div>
+                      <div class="col-md-2 col-sm-2">
+                        ${element.CompanyName}
+                      </div>
+                      <div class="col-md-2 col-sm-2 nj">
+                        ${element.JobTitle}
+                      </div>
+                      <div class="col-md-1 col-sm-2 np">
+                        ${element.posted_date}
+                      </div>
+                      <div class="col-md-1 col-sm-2 txtRightCont">
+                        ${element.closing_date}
+                      </div>
+                      <div class="col-md-1 col-sm-1 txtRightCont">
+                        ${element.daily_budget}
+                      </div>
+                      <div class="col-md-1 col-sm-1 txtRightCont">
+                        ${element.closing_date === getCurrentDay() ? '<span class="text-danger">Close day</span>' : ''}
+                      </div>
+                      
+                      <div class="col-md-1 col-sm-2 txtRightCont">
+                        ${element.action === 1 ? '<button>Post</button>' : ''}
+                        ${element.action === 2 ? '<span>Live</span><button>Close</button><button>Edit</button>' : ''}
+                        ${element.action === 3 ? '<span class="text-danger">Closed</span><button>Repost</button>' : ''}
+                      </div>
+                    </div>
+                  </div>
+                  `
+
+            });
+            $(document).ready(function () {
+              $("#body").append(html);
+            });
+
+          }
+
+        },
+        error: function () {
+          console.error('Error loading JSON file');
+        }
+      });
+    }
+  </script>
+  <div id="main" style="max-width: 80%; margin:0 auto;">
+
+    <div class="row">
+      <div class="col-md-1 col-sm-1">${item.sl}.</div>
+      <div class="col-md-3 col-sm-5">${item.companyName}</div>
+      <div class="col-md-3 col-sm-2 txtCenterCont">
+        <div class="typeOfResume">
+          <a href="javascript:void(3);" data-toggle="tooltip" data-trigger="hover" data-placement="top" title=""
+            data-original-title="Summery View" class="btn " aria-label="Summery View" aria-disabled="true">
+            <span class="sr-only">Summery View</span>
+            <i class="icon-text-box-search-outline" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
+      <div class="col-md-2 col-sm-2 txtCenterCont">${item.viewSummeryView}</div>
+      <div class="col-md-3 col-sm-2 txtRightCont">
+        <span><i class="icon-calendar"></i>${item.viewedOn}</span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
 </body>
+
 </html>
